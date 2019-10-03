@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.dxain.ml/thank/index.html</loc>
-    
-    <lastmod>2019-10-02T15:42:31.440Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/photos/index.html</loc>
-    
-    <lastmod>2019-10-02T15:42:31.417Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/photos/data.json</loc>
-    
-    <lastmod>2019-10-02T15:42:31.400Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/lib/jquery_lazyload/bower.json</loc>
-    
-    <lastmod>2019-10-02T15:42:31.356Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/lib/jquery_lazyload/README.html</loc>
-    
-    <lastmod>2019-10-02T15:42:31.344Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/achives/index.html</loc>
-    
-    <lastmod>2019-10-02T15:42:31.226Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.dxain.ml/about/index.html</loc>
     
-    <lastmod>2019-10-02T15:42:31.218Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/article/talk-promise.html</loc>
-    
-    <lastmod>2019-10-02T15:42:31.217Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/article/front-end-route.html</loc>
-    
-    <lastmod>2019-10-02T15:42:31.183Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/article/use-ionic-apk.html</loc>
-    
-    <lastmod>2019-10-02T15:42:31.158Z</lastmod>
+    <lastmod>2019-10-02T12:27:04.715Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.dxain.ml/article/create-ionic-project.html</loc>
     
-    <lastmod>2019-10-02T15:42:31.147Z</lastmod>
+    <lastmod>2019-09-15T10:34:35.378Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/article/talk-promise.html</loc>
+    
+    <lastmod>2019-05-26T09:11:52.663Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/article/front-end-route.html</loc>
+    
+    <lastmod>2019-05-26T09:07:13.741Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/article/use-ionic-apk.html</loc>
+    
+    <lastmod>2019-05-26T08:43:40.575Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/thank/index.html</loc>
+    
+    <lastmod>2019-05-12T11:03:47.674Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/lib/jquery_lazyload/bower.json</loc>
+    
+    <lastmod>2019-04-29T23:57:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/lib/jquery_lazyload/README.html</loc>
+    
+    <lastmod>2019-04-29T23:57:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/photos/index.html</loc>
+    
+    <lastmod>2019-04-29T23:57:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/photos/data.json</loc>
+    
+    <lastmod>2019-04-29T23:57:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/achives/index.html</loc>
+    
+    <lastmod>2019-04-29T23:57:33.000Z</lastmod>
     
   </url>
   
