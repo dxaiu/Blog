@@ -1,85 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.dxain.ml/article/create-ionic-project.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/talk-promise.html</loc>
+    <lastmod>2019-10-04</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/myself-china.html</loc>
+    <lastmod>2019-10-02</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/create-ionic-project.html</loc>
     <lastmod>2019-09-15</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/talk-promise.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/front-end-route.html</loc>
     <lastmod>2019-05-26</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/front-end-route.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/use-ionic-apk.html</loc>
     <lastmod>2019-05-26</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/use-ionic-apk.html</loc>
-    <lastmod>2019-05-26</lastmod>
-  </url>  <url>
-    <loc>https://www.dxain.ml/article/vr-net.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/vr-net.html</loc>
     <lastmod>2019-01-07</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/sum-of-2018.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/sum-of-2018.html</loc>
     <lastmod>2019-01-05</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/vue-response-principle.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/vue-response-principle.html</loc>
     <lastmod>2018-12-25</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/bug-house.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/bug-house.html</loc>
     <lastmod>2018-09-15</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/vue-table-editing.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/vue-table-editing.html</loc>
     <lastmod>2018-05-30</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/front-end-library.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/front-end-library.html</loc>
     <lastmod>2018-04-30</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/elementui-table-header-prompt-information.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/elementui-table-header-prompt-information.html</loc>
     <lastmod>2018-04-25</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/trust-in-the-future.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/trust-in-the-future.html</loc>
     <lastmod>2018-04-23</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/understanding-call-apply.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/understanding-call-apply.html</loc>
     <lastmod>2018-03-17</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/to-meeting.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/to-meeting.html</loc>
     <lastmod>2018-01-12</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/to-myself-2018.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/to-myself-2018.html</loc>
     <lastmod>2017-12-31</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/loop-method-in-javaScript.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/loop-method-in-javaScript.html</loc>
     <lastmod>2017-07-25</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/meeting-love.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/meeting-love.html</loc>
     <lastmod>2016-08-16</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/summary-of-jquery.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/summary-of-jquery.html</loc>
     <lastmod>2016-08-03</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/how-to-use-gitHub-2.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/how-to-use-gitHub-2.html</loc>
     <lastmod>2016-07-11</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/how-to-use-gitHub-1.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/how-to-use-gitHub-1.html</loc>
     <lastmod>2016-07-09</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/git-remote-operations-detailed.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/git-remote-operations-detailed.html</loc>
     <lastmod>2016-07-03</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/common-commands-of-linux.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/common-commands-of-linux.html</loc>
     <lastmod>2016-06-30</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/sql-check-common.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/sql-check-common.html</loc>
     <lastmod>2016-06-01</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/same-flower.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/same-flower.html</loc>
     <lastmod>2016-04-23</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/linux-check-ls.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-ls.html</loc>
     <lastmod>2016-04-16</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/sql-check.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/sql-check.html</loc>
     <lastmod>2016-04-13</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/article/linux-sum.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/linux-sum.html</loc>
     <lastmod>2016-04-13</lastmod>
   </url>
 </urlset>

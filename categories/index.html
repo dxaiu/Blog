@@ -555,10 +555,14 @@
                   
                 
               
-              目前共计 8 个分类
+                
+                  
+                
+              
+              目前共计 9 个分类
             </div>
             <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/ES6/">ES6</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/心情随笔/">心情随笔</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/房产/">房产</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据库/">数据库</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/移动端/">移动端</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/美文欣赏/">美文欣赏</a><span class="category-list-count">2</span></li></ul>
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/ES6/">ES6</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/家国情怀/">家国情怀</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/心情随笔/">心情随笔</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/房产/">房产</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/数据库/">数据库</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/移动端/">移动端</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/美文欣赏/">美文欣赏</a><span class="category-list-count">2</span></li></ul>
             </div>
           </div>
         
@@ -617,7 +621,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">27</span>
+                    <span class="site-state-item-count">28</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -650,7 +654,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">8</span>
+                      
+                    
+                    <span class="site-state-item-count">9</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -745,7 +751,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">39</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">41</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -817,6 +827,10 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="https://www.dxain.ml/" title="https://www.dxain.ml/">听雨轩</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://docschina.org/" title="https://docschina.org/" rel="noopener" target="_blank">印记中文</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
@@ -892,8 +906,9 @@
 
 
 <!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
-
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="/js/src/clicklove.js"></script> -->
+<script type="text/javascript" src="/js/src/click_show_text.js"></script>
 <div>
 <!-- 网站运行时间的设置 -->
 <span id="timeDate">载入天数...</span>
@@ -918,7 +933,7 @@ setInterval("createtime()",250);
 <!-- 网站底部字数统计 -->
 <div class="theme-info">
   <i class="fa fa-pencil"></i>
-  <span class="post-count">博客全站共24.2k字</span>
+  <span class="post-count">博客全站共23.5k字</span>
 </div>
 
 <!-- 不蒜字统计 -->
@@ -1074,6 +1089,42 @@ setInterval("createtime()",250);
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'yn01miP3wdQDcxMUbK8kmfaS-MdYXbMMI',
+    appKey: 'KBpEE8weFQBg9XlEelOfi8Fp',
+    placeholder: '雁过留声，君过留言，请注意古典文明用言(✿◡‿◡)请正确填写邮箱, 才能及时收到回复哦 ♪(^∇^*)',
+    avatar: 'wavatar',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true
+  });
+  //新增以下代码即可，可以移除.info下所有子节点。
+  var infoEle = document.querySelector('#comments .info');
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
+    infoEle.childNodes.forEach(function(item) {
+      item.parentNode.removeChild(item);
+    });
+   }
+</script>
+
+
 
 
 

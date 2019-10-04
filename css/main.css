@@ -2166,7 +2166,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a8ad53;
+  background: #7c61d9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2560,14 +2560,6 @@ pre .javascript .function {
   padding: 0 10px 0 14px;
   border: 1px solid #555;
   border-radius: 4px;
-}
-.gt-header a,
-.gt-comments a,
-.gt-popup a {
-  border-bottom: none;
-}
-.gt-container .gt-popup .gt-action.is--active:before {
-  top: 0.7em;
 }
 .page-archive .archive-page-counter {
   position: relative;
