@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.dxain.ml/zh-cn/use-ionic-apk.html</loc>
+    <lastmod>2022-07-23</lastmod>
+  </url>  <url>
     <loc>https://www.dxain.ml/zh-cn/create-ionic-project.html</loc>
     <lastmod>2022-07-23</lastmod>
   </url>  <url>
@@ -10,11 +13,14 @@
     <loc>https://www.dxain.ml/zh-cn/talk-promise.html</loc>
     <lastmod>2022-07-23</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/zh-cn/use-ionic-apk.html</loc>
-    <lastmod>2022-07-23</lastmod>
-  </url>  <url>
     <loc>https://www.dxain.ml/zh-cn/myself-china.html</loc>
     <lastmod>2019-10-02</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/js-base-learn.html</loc>
+    <lastmod>2019-04-21</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/js-base.html</loc>
+    <lastmod>2019-04-13</lastmod>
   </url>  <url>
     <loc>https://www.dxain.ml/zh-cn/vr-net.html</loc>
     <lastmod>2019-01-07</lastmod>
