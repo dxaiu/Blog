@@ -23,6 +23,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
+<meta name="referrer" content="no-referrer">
 
 
   
@@ -154,18 +155,18 @@
 
 
 
-  <meta name="description" content="在MySQL的学习过程中，最复杂，最考验SQL功底的就是SELECT查询语句了。下面总结一下在WEB网站开发中比较实用的时期查询SQL语句。假设MySQL数据库表中时间字段为add_time，类型为datetime。">
+  <meta name="description" content="ls命令是linux下最常用的命令。 ls命令就是list的缩写，缺省下ls用来打印出当前目录的清单，如果ls指定其他目录，那么就会显示指定目录里的文件及文件夹清单。 通过ls命令不仅可以查看linux文件夹包含的文件，而且可以查看文件权限(包括目录、文件夹、文件权限)，查看目录信息等等。  1. 命令格式： 1ls [选项] [目录名] 2. 命令功能：  列出目标目录中所有的子目录和文件。">
 <meta name="keywords" content="Linux命令">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Linux命令：ls">
+<meta property="og:title" content="Linux命令-ls">
 <meta property="og:url" content="https://www.dxain.ml/zh-cn/linux-check-ls.html">
 <meta property="og:site_name" content="听雨轩">
-<meta property="og:description" content="在MySQL的学习过程中，最复杂，最考验SQL功底的就是SELECT查询语句了。下面总结一下在WEB网站开发中比较实用的时期查询SQL语句。假设MySQL数据库表中时间字段为add_time，类型为datetime。">
+<meta property="og:description" content="ls命令是linux下最常用的命令。 ls命令就是list的缩写，缺省下ls用来打印出当前目录的清单，如果ls指定其他目录，那么就会显示指定目录里的文件及文件夹清单。 通过ls命令不仅可以查看linux文件夹包含的文件，而且可以查看文件权限(包括目录、文件夹、文件权限)，查看目录信息等等。  1. 命令格式： 1ls [选项] [目录名] 2. 命令功能：  列出目标目录中所有的子目录和文件。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2016-04-16T20:42:12.000Z">
+<meta property="og:updated_time" content="2019-06-21T21:15:32.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Linux命令：ls">
-<meta name="twitter:description" content="在MySQL的学习过程中，最复杂，最考验SQL功底的就是SELECT查询语句了。下面总结一下在WEB网站开发中比较实用的时期查询SQL语句。假设MySQL数据库表中时间字段为add_time，类型为datetime。">
+<meta name="twitter:title" content="Linux命令-ls">
+<meta name="twitter:description" content="ls命令是linux下最常用的命令。 ls命令就是list的缩写，缺省下ls用来打印出当前目录的清单，如果ls指定其他目录，那么就会显示指定目录里的文件及文件夹清单。 通过ls命令不仅可以查看linux文件夹包含的文件，而且可以查看文件权限(包括目录、文件夹、文件权限)，查看目录信息等等。  1. 命令格式： 1ls [选项] [目录名] 2. 命令功能：  列出目标目录中所有的子目录和文件。">
 
 
 
@@ -185,7 +186,7 @@
 </script>
 
 
-  <title>Linux命令：ls | 听雨轩</title>
+  <title>Linux命令-ls | 听雨轩</title>
   
 
 
@@ -515,7 +516,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Linux命令：ls
+          <h1 class="post-title" itemprop="name headline">Linux命令-ls
 
               
             
@@ -541,7 +542,7 @@
                 
               
 
-              <time title="创建时间：2016-04-16 20:42:12" itemprop="dateCreated datePublished" datetime="2016-04-16T20:42:12Z">2016-04-16</time>
+              <time title="创建时间：2019-06-21 21:15:32" itemprop="dateCreated datePublished" datetime="2019-06-21T21:15:32Z">2019-06-21</time>
             
 
             
@@ -587,7 +588,7 @@
 
           
           
-            <span id="/zh-cn/linux-check-ls.html" class="leancloud_visitors" data-flag-title="Linux命令：ls">
+            <span id="/zh-cn/linux-check-ls.html" class="leancloud_visitors" data-flag-title="Linux命令-ls">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -619,29 +620,73 @@
 
       
         <blockquote>
-<p>在MySQL的学习过程中，最复杂，最考验SQL功底的就是SELECT查询语句了。下面总结一下在WEB网站开发中比较实用的时期查询SQL语句。假设MySQL数据库表中时间字段为add_time，类型为datetime。</p>
+<p>ls命令是linux下最常用的命令。<br>
+ls命令就是list的缩写，缺省下ls用来打印出当前目录的清单，如果ls指定其他目录，那么就会显示指定目录里的文件及文件夹清单。<br>
+通过ls命令不仅可以查看linux文件夹包含的文件，而且可以查看文件权限(包括目录、文件夹、文件权限)，查看目录信息等等。</p>
 </blockquote>
-<a id="more"></a>
-<h5 id="1-查询当天">1、查询当天</h5>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE to_days(<span class="string">`add_time`</span>) = to_days(now());</span><br></pre></td></tr></table></figure>
-<h5 id="2-查询昨天">2、查询昨天</h5>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE to_days(now()) – to_days(<span class="string">`add_time`</span>) = <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
-<h5 id="3-查询最近7天">3、查询最近7天</h5>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE date_sub(curdate(), INTERVAL <span class="number">7</span> DAY) &lt;= DATE(<span class="string">`add_time`</span>);</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE curdate()- INTERVAL <span class="number">7</span> DAY &lt;= DATE(<span class="string">`add_time`</span>);</span><br></pre></td></tr></table></figure>
-<h5 id="4-查询最近30天">4、查询最近30天</h5>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE date_sub(curdate(), INTERVAL <span class="number">30</span> DAY) &lt;= DATE(<span class="string">`add_time`</span>);</span><br></pre></td></tr></table></figure>
-<p>或者</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE curdate()-INTERVAL <span class="number">30</span> DAY &lt;= DATE(<span class="string">`add_time`</span>);</span><br></pre></td></tr></table></figure>
-<h5 id="5-查询截止到当前本周">5、查询截止到当前本周</h5>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM `article` WHERE YEARWEEK(date_format(`add_time`,'%Y-%m-%d')) = YEARWEEK(now());#默认从周日开始到周六</span><br><span class="line">SELECT * FROM `article` WHERE YEARWEEK(date_format(`add_time`,'%Y-%m-%d'),1) = YEARWEEK(now(),1);#设置为从周一开始到周日</span><br></pre></td></tr></table></figure>
-<h5 id="6-查询上周的数据">6、查询上周的数据</h5>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE YEARWEEK(date_format(<span class="string">`add_time`</span>,<span class="string">'%Y-%m-%d'</span>)) = YEARWEEK(now())<span class="number">-1</span>;</span><br></pre></td></tr></table></figure>
-<h5 id="7-查询截止到当前本月">7、查询截止到当前本月</h5>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE date_format(<span class="string">`add_time`</span>, <span class="string">'%Y%m'</span>) = date_format(curdate() , <span class="string">'%Y%m'</span>);</span><br></pre></td></tr></table></figure>
-<h5 id="8-查询上一月">8、查询上一月</h5>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT * FROM <span class="string">`article`</span> WHERE period_diff(date_format(now() , <span class="string">'%Y%m'</span>) , date_format(<span class="string">`add_time`</span>, <span class="string">'%Y%m'</span>)) =<span class="number">1</span>;</span><br></pre></td></tr></table></figure>
+<h5 id="1-命令格式：">1. 命令格式：</h5>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls [选项] [目录名]</span><br></pre></td></tr></table></figure>
+<h5 id="2-命令功能：">2. 命令功能：</h5>
+<blockquote>
+<p>列出目标目录中所有的子目录和文件。</p>
+</blockquote>
+<h5 id="3-常用参数：">3. 常用参数：</h5>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line">-a, –all 列出目录下的所有文件，包括以 . 开头的隐含文件</span><br><span class="line"></span><br><span class="line">-A 同-a，但不列出“.”(表示当前目录)和“..”(表示当前目录的父目录)。</span><br><span class="line"></span><br><span class="line">-c  配合 -lt：根据 ctime 排序及显示 ctime (文件状态最后更改的时间)配合 -l：显示 ctime 但根据名称排序否则：根据 ctime 排序</span><br><span class="line"></span><br><span class="line">-C 每栏由上至下列出项目</span><br><span class="line"></span><br><span class="line">–color[=WHEN] 控制是否使用色彩分辨文件。WHEN 可以是&apos;never&apos;、&apos;always&apos;或&apos;auto&apos;其中之一</span><br><span class="line"></span><br><span class="line">-d, –directory 将目录象文件一样显示，而不是显示其下的文件。</span><br><span class="line"></span><br><span class="line">-D, –dired 产生适合 Emacs 的 dired 模式使用的结果</span><br><span class="line"></span><br><span class="line">-f 对输出的文件不进行排序，-aU 选项生效，-lst 选项失效</span><br><span class="line"></span><br><span class="line">-g 类似 -l,但不列出所有者</span><br><span class="line"></span><br><span class="line">-G, –no-group 不列出任何有关组的信息</span><br><span class="line"></span><br><span class="line">-h, –human-readable 以容易理解的格式列出文件大小 (例如 1K 234M 2G)</span><br><span class="line"></span><br><span class="line">–si 类似 -h,但文件大小取 1000 的次方而不是 1024</span><br><span class="line"></span><br><span class="line">-H, –dereference-command-line 使用命令列中的符号链接指示的真正目的地</span><br><span class="line"></span><br><span class="line">–indicator-style=方式 指定在每个项目名称后加上指示符号&lt;方式&gt;：none (默认)，classify (-F)，file-type (-p)</span><br><span class="line"></span><br><span class="line">-i, –inode 印出每个文件的 inode 号</span><br><span class="line"></span><br><span class="line">-I, –ignore=样式 不印出任何符合 shell 万用字符&lt;样式&gt;的项目</span><br><span class="line"></span><br><span class="line">-k 即 –block-size=1K,以 k 字节的形式表示文件的大小。</span><br><span class="line"></span><br><span class="line">-l 除了文件名之外，还将文件的权限、所有者、文件大小等信息详细列出来。</span><br><span class="line"></span><br><span class="line">-L, –dereference 当显示符号链接的文件信息时，显示符号链接所指示的对象而并非符号链接本身的信息</span><br><span class="line"></span><br><span class="line">-m 所有项目以逗号分隔，并填满整行行宽</span><br><span class="line"></span><br><span class="line">-o 类似 -l,显示文件的除组信息外的详细信息。   </span><br><span class="line"></span><br><span class="line">-r, –reverse 依相反次序排列</span><br><span class="line"></span><br><span class="line">-R, –recursive 同时列出所有子目录层</span><br><span class="line"></span><br><span class="line">-s, –size 以块大小为单位列出所有文件的大小</span><br><span class="line"></span><br><span class="line">-S 根据文件大小排序</span><br><span class="line"></span><br><span class="line">–sort=WORD 以下是可选用的 WORD 和它们代表的相应选项：</span><br><span class="line"></span><br><span class="line">extension -X status -c</span><br><span class="line">none -U time -t</span><br><span class="line">size -S atime -u</span><br><span class="line">time -t access -u</span><br><span class="line">version -v use -u</span><br><span class="line"></span><br><span class="line">-t 以文件修改时间排序</span><br><span class="line"></span><br><span class="line">-u 配合 -lt:显示访问时间而且依访问时间排序</span><br><span class="line"></span><br><span class="line">配合 -l:显示访问时间但根据名称排序</span><br><span class="line"></span><br><span class="line">否则：根据访问时间排序</span><br><span class="line"></span><br><span class="line">-U 不进行排序;依文件系统原有的次序列出项目</span><br><span class="line"></span><br><span class="line">-v 根据版本进行排序</span><br><span class="line"></span><br><span class="line">-w, –width=COLS 自行指定屏幕宽度而不使用目前的数值</span><br><span class="line"></span><br><span class="line">-x 逐行列出项目而不是逐栏列出</span><br><span class="line"></span><br><span class="line">-X 根据扩展名排序</span><br><span class="line"></span><br><span class="line">-1 每行只列出一个文件</span><br><span class="line"></span><br><span class="line">–help 显示此帮助信息并离开</span><br><span class="line"></span><br><span class="line">–version 显示版本信息并离开</span><br></pre></td></tr></table></figure>
+<h5 id="4-常用范例：">4. 常用范例：</h5>
+<blockquote>
+<p>例一：列出/var/www文件夹下的所有文件和目录的详细资料</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">命令：ls -l -R /var/www</span><br><span class="line">命令：ls -lR /var/www</span><br><span class="line"></span><br><span class="line">命令格式：“ls” 是命令关键字，“-l -R”是参数，“/var/www”是命令的操作对象</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例二：列出当前目录中所有以“t”开头的目录的详细内容，可以使用如下命令：</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">命令：ls -l t*</span><br></pre></td></tr></table></figure>
+<p>可以查看当前目录下文件名以“t”开头的所有文件的信息。其实，在命令格式中，方括号内的内容都是可以省略的，对于命令ls而言，如果省略命令参数和操作对象，直接输入“ ls ”，则将会列出当前工作目录的内容清单。</p>
+<blockquote>
+<p>例三：只列出文件下的子目录</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">命令：ls -F /opt/soft |grep /$  </span><br><span class="line">列出 /opt/soft 文件下面的子目录</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line"></span><br><span class="line">[root@localhost opt]# ls -F /opt/soft |grep /$</span><br><span class="line"></span><br><span class="line">jdk1.6.0_16/</span><br><span class="line">subversion-1.6.1/</span><br><span class="line">tomcat6.0.32/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">命令：ls -l /opt/soft | grep &quot;^d&quot;</span><br><span class="line"></span><br><span class="line">列出 /opt/soft 文件下面的子目录详细情况</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line">[root@localhost opt]#  ls -l /opt/soft | grep &quot;^d&quot;</span><br><span class="line">drwxr-xr-x 10 root root      4096 09-17 18:17 jdk1.6.0_16</span><br><span class="line">drwxr-xr-x 16 1016 1016      4096 10-11 03:25 subversion-1.6.1</span><br><span class="line">drwxr-xr-x  9 root root      4096 2011-11-01 tomcat6.0.32</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例四：列出目前工作目录下所有名称是s 开头的档案，愈新的排愈后面，可以使用如下命令：</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">命令：ls -ltr s*</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line">[root@localhost opt]# ls -ltr s*</span><br><span class="line">src:</span><br><span class="line">总计 0</span><br><span class="line">script:</span><br><span class="line">总计 0</span><br><span class="line">soft:</span><br><span class="line">总计 350644</span><br><span class="line">drwxr-xr-x  9 root root      4096 2011-11-01 tomcat6.0.32</span><br><span class="line">-rwxr-xr-x  1 root root  81871260 09-17 18:15 jdk-6u16-linux-x64.bin</span><br><span class="line">drwxr-xr-x 10 root root      4096 09-17 18:17 jdk1.6.0_16</span><br><span class="line">-rw-r--r--  1 root root 205831281 09-17 18:33 apache-tomcat-6.0.32.tar.gz</span><br><span class="line">-rw-r--r--  1 root root   5457684 09-21 00:23 tomcat6.0.32.tar.gz</span><br><span class="line">-rw-r--r--  1 root root   4726179 10-10 11:08 subversion-deps-1.6.1.tar.gz</span><br><span class="line">-rw-r--r--  1 root root   7501026 10-10 11:08 subversion-1.6.1.tar.gz</span><br><span class="line">drwxr-xr-x 16 1016 1016      4096 10-11 03:25 subversion-1.6.1</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例五：列出目前工作目录下所有档案及目录;目录于名称后加&quot;/&quot;, 可执行档于名称后加&quot;*&quot;</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">命令：ls -AF</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line">[root@localhost opt]# ls -AF</span><br><span class="line">log/  script/  soft/  src/  svndata/  web/</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例六：计算当前目录下的文件数和目录数</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">命令：</span><br><span class="line">ls -l * |grep &quot;^-&quot;|wc -l ---文件个数  </span><br><span class="line">ls -l * |grep &quot;^d&quot;|wc -l ---目录个数</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例七: 在ls中列出文件的绝对路径</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">命令：ls | sed &quot;s:^:`pwd`/:&quot;</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line">[root@localhost opt]# ls | sed &quot;s:^:`pwd`/:&quot; </span><br><span class="line">/opt/log</span><br><span class="line">/opt/script</span><br><span class="line">/opt/soft</span><br><span class="line">/opt/src</span><br><span class="line">/opt/svndata</span><br><span class="line">/opt/web</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例九：列出当前目录下的所有文件（包括隐藏文件）的绝对路径， 对目录不做递归</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">命令：find $PWD -maxdepth 1 | xargs ls -ld</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line">[root@localhost opt]# find $PWD -maxdepth 1 | xargs ls -ld</span><br><span class="line">drwxr-xr-x 8 root root 4096 10-11 03:43 /opt</span><br><span class="line">drwxr-xr-x 2 root root 4096 2012-03-08 /opt/log</span><br><span class="line">drwxr-xr-x 2 root root 4096 2012-03-08 /opt/script</span><br><span class="line">drwxr-xr-x 5 root root 4096 10-11 03:21 /opt/soft</span><br><span class="line">drwxr-xr-x 2 root root 4096 2012-03-08 /opt/src</span><br><span class="line">drwxr-xr-x 4 root root 4096 10-11 05:22 /opt/svndata</span><br><span class="line">drwxr-xr-x 4 root root 4096 10-09 00:45 /opt/web</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例十：递归列出当前目录下的所有文件（包括隐藏文件）的绝对路径</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">命令： find $PWD | xargs ls -ld</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例十一：指定文件时间输出格式</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">命令： ls -tl --time-style=full-iso</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line">[root@localhost soft]# ls -tl --time-style=full-iso </span><br><span class="line">总计 350644</span><br><span class="line">drwxr-xr-x 16 1016 1016 4096 2012-10-11 03:25:58.000000000 +0800 subversion-1.6.1</span><br><span class="line"></span><br><span class="line">命令： ls -ctl --time-style=long-iso</span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line">[root@localhost soft]# ls -ctl --time-style=long-iso</span><br><span class="line">总计 350644</span><br><span class="line">drwxr-xr-x 16 1016 1016      4096 2012-10-11 03:25 subversion-1.6.1</span><br></pre></td></tr></table></figure>
+<h5 id="扩展：">扩展：</h5>
+<ol>
+<li>
+<p>显示彩色目录列表</p>
+<p>打开/etc/bashrc, 加入如下一行:</p>
+<blockquote>
+<p>alias ls=“ls --color”</p>
+</blockquote>
+<p>下次启动bash时就可以像在Slackware里那样显示彩色的目录列表了, 其中颜色的含义如下:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 蓝色--&gt;目录</span><br><span class="line">2. 绿色--&gt;可执行文件</span><br><span class="line">3. 红色--&gt;压缩文件</span><br><span class="line">4. 浅蓝色--&gt;链接文件</span><br><span class="line">5. 灰色--&gt;其他文件</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
 
       
     </div>
@@ -663,11 +708,11 @@
   <script src="https://cdn.bootcss.com/sweetalert/2.1.2/sweetalert.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css">
 
-  <p><span>本文标题:</span>Linux命令：ls</p>
+  <p><span>本文标题:</span>Linux命令-ls</p>
   <p><span>文章作者:</span>Alliot</p>
-  <p><span>发布时间:</span>2016年04月16日 - 20:42:12</p>
-  <p><span>最后更新:</span>2016年04月16日 - 20:42:12</p>
-  <p><span>原始链接:</span><a href="/zh-cn/linux-check-ls.html" title="Linux命令：ls">https://www.dxain.ml/zh-cn/linux-check-ls.html</a>
+  <p><span>发布时间:</span>2019年06月21日 - 21:15:32</p>
+  <p><span>最后更新:</span>2019年06月21日 - 21:15:32</p>
+  <p><span>原始链接:</span><a href="/zh-cn/linux-check-ls.html" title="Linux命令-ls">https://www.dxain.ml/zh-cn/linux-check-ls.html</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.dxain.ml/zh-cn/linux-check-ls.html" aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>
@@ -773,8 +818,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/zh-cn/sql-check.html" rel="next" title="MySQL常用的SQL查询语句">
-                <i class="fa fa-chevron-left"></i> MySQL常用的SQL查询语句
+              <a href="/zh-cn/js-base-learn.html" rel="next" title="JavaScript之再学习">
+                <i class="fa fa-chevron-left"></i> JavaScript之再学习
               </a>
             
           </div>
@@ -783,8 +828,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/zh-cn/same-flower.html" rel="prev" title="人生就该向这些花儿一样">
-                人生就该向这些花儿一样 <i class="fa fa-chevron-right"></i>
+              <a href="/zh-cn/myself-china.html" rel="prev" title="我和我的祖国">
+                我和我的祖国 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -861,7 +906,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">30</span>
+                    <span class="site-state-item-count">38</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -995,7 +1040,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">41</span>
+                      
+                    
+                    <span class="site-state-item-count">42</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1104,7 +1151,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-查询当天"><span class="nav-number">1.</span> <span class="nav-text">1、查询当天</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-查询昨天"><span class="nav-number">2.</span> <span class="nav-text">2、查询昨天</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-查询最近7天"><span class="nav-number">3.</span> <span class="nav-text">3、查询最近7天</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-查询最近30天"><span class="nav-number">4.</span> <span class="nav-text">4、查询最近30天</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-查询截止到当前本周"><span class="nav-number">5.</span> <span class="nav-text">5、查询截止到当前本周</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#6-查询上周的数据"><span class="nav-number">6.</span> <span class="nav-text">6、查询上周的数据</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#7-查询截止到当前本月"><span class="nav-number">7.</span> <span class="nav-text">7、查询截止到当前本月</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#8-查询上一月"><span class="nav-number">8.</span> <span class="nav-text">8、查询上一月</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-命令格式："><span class="nav-number">1.</span> <span class="nav-text">1. 命令格式：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-命令功能："><span class="nav-number">2.</span> <span class="nav-text">2. 命令功能：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-常用参数："><span class="nav-number">3.</span> <span class="nav-text">3. 常用参数：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-常用范例："><span class="nav-number">4.</span> <span class="nav-text">4. 常用范例：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#扩展："><span class="nav-number">5.</span> <span class="nav-text">扩展：</span></a></li></ol></div>
             
 
           </div>
@@ -1182,19 +1229,19 @@ setInterval("createtime()",250);
 <!-- 网站底部字数统计 -->
 <div class="theme-info">
   <i class="fa fa-pencil"></i>
-  <span class="post-count">博客全站共38.2k字</span>
+  <span class="post-count">博客全站共46.6k字</span>
 </div>
 
 <!-- 不蒜字统计 -->
 <div>
 	<i class="fa fa-user-md"></i>
 	<span id="busuanzi_container_site_uv">
-	  访问人数：<span id="busuanzi_value_site_uv">人</span>
+	  访问人数：<span id="busuanzi_value_site_uv"></span>人
 	</span>&nbsp;|&nbsp;
 
 	<i class="fa fa-eye"></i>
 	<span id="busuanzi_container_site_pv">
-	  总访问量：<span id="busuanzi_value_site_pv">次</span>
+	  总访问量：<span id="busuanzi_value_site_pv"></span>次
 	</span>
 </div>
 
@@ -1340,11 +1387,11 @@ setInterval("createtime()",250);
   
   
 
-<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
 
 
 
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
@@ -1362,7 +1409,12 @@ setInterval("createtime()",250);
     avatar: 'wavatar',
     meta: guest,
     pageSize: '10' || 10,
-    visitor: true
+    visitor: true,
+    recordIP   : true,
+    serverURLs : 'https://yn01mip3.api.lncldglobal.com,',
+    enableQQ : 'true',
+    tagMeta: ["主人","小伙伴","访客"],
+    master: 'a2452bd8f7e1bfdc7b8b7f4956f0d77f'
   });
   //新增以下代码即可，可以移除.info下所有子节点。
   var infoEle = document.querySelector('#comments .info');

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.dxain.ml/about/index.html</loc>
+    
+    <lastmod>2022-07-25T12:39:01.479Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.dxain.ml/photos/index.html</loc>
     
     <lastmod>2022-07-23T10:32:11.532Z</lastmod>
@@ -72,9 +79,58 @@
   </url>
   
   <url>
-    <loc>https://www.dxain.ml/about/index.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/linux-handle-full.html</loc>
     
-    <lastmod>2022-07-23T10:32:11.502Z</lastmod>
+    <lastmod>2020-05-26T23:05:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-mv.html</loc>
+    
+    <lastmod>2020-05-21T22:42:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-open-lamp.html</loc>
+    
+    <lastmod>2020-04-16T23:11:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-rmdir.html</loc>
+    
+    <lastmod>2020-02-06T11:43:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-rm.html</loc>
+    
+    <lastmod>2020-01-25T15:16:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-mkdir.html</loc>
+    
+    <lastmod>2020-01-12T17:21:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-pwd.html</loc>
+    
+    <lastmod>2020-01-02T11:09:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-cd.html</loc>
+    
+    <lastmod>2019-10-06T20:11:05.000Z</lastmod>
     
   </url>
   
@@ -82,6 +138,13 @@
     <loc>https://www.dxain.ml/zh-cn/myself-china.html</loc>
     
     <lastmod>2019-10-02T10:11:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-ls.html</loc>
+    
+    <lastmod>2019-06-21T21:15:32.000Z</lastmod>
     
   </url>
   
@@ -310,9 +373,9 @@
   </url>
   
   <url>
-    <loc>https://www.dxain.ml/zh-cn/linux-check-ls.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/linux-sum.html</loc>
     
-    <lastmod>2016-04-16T20:42:12.000Z</lastmod>
+    <lastmod>2016-04-17T13:35:09.000Z</lastmod>
     
   </url>
   
@@ -320,13 +383,6 @@
     <loc>https://www.dxain.ml/zh-cn/sql-check.html</loc>
     
     <lastmod>2016-04-13T13:35:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.dxain.ml/zh-cn/linux-sum.html</loc>
-    
-    <lastmod>2016-04-13T13:35:09.000Z</lastmod>
     
   </url>
   

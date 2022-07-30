@@ -23,6 +23,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
+<meta name="referrer" content="no-referrer">
 
 
   
@@ -162,7 +163,7 @@
 <meta property="og:site_name" content="听雨轩">
 <meta property="og:description" content="在开发的过程中，基本标配的数据库为MySQL。我们不用像数据库DBA那样熟悉所有的MySQL知识，作为一个PHP程序员我们还是必须会MySQL基本的数据增删查改。下面总结归纳一些MySQL基础知识点分享给大家。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2016-04-13T13:35:09.000Z">
+<meta property="og:updated_time" content="2016-04-17T13:35:09.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySQL基础知识点总结归纳">
 <meta name="twitter:description" content="在开发的过程中，基本标配的数据库为MySQL。我们不用像数据库DBA那样熟悉所有的MySQL知识，作为一个PHP程序员我们还是必须会MySQL基本的数据增删查改。下面总结归纳一些MySQL基础知识点分享给大家。">
@@ -541,7 +542,7 @@
                 
               
 
-              <time title="创建时间：2016-04-13 13:35:09" itemprop="dateCreated datePublished" datetime="2016-04-13T13:35:09Z">2016-04-13</time>
+              <time title="创建时间：2016-04-17 13:35:09" itemprop="dateCreated datePublished" datetime="2016-04-17T13:35:09Z">2016-04-17</time>
             
 
             
@@ -720,8 +721,8 @@ RIGHT JOIN（右连接）： 与 LEFT JOIN 相反，用于获取右表所有记�
 
   <p><span>本文标题:</span>MySQL基础知识点总结归纳</p>
   <p><span>文章作者:</span>Alliot</p>
-  <p><span>发布时间:</span>2016年04月13日 - 13:35:09</p>
-  <p><span>最后更新:</span>2016年04月13日 - 13:35:09</p>
+  <p><span>发布时间:</span>2016年04月17日 - 13:35:09</p>
+  <p><span>最后更新:</span>2016年04月17日 - 13:35:09</p>
   <p><span>原始链接:</span><a href="/zh-cn/linux-sum.html" title="MySQL基础知识点总结归纳">https://www.dxain.ml/zh-cn/linux-sum.html</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.dxain.ml/zh-cn/linux-sum.html" aria-label="复制成功！"></i></span>
   </p>
@@ -830,14 +831,18 @@ RIGHT JOIN（右连接）： 与 LEFT JOIN 相反，用于获取右表所有记�
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/zh-cn/sql-check.html" rel="next" title="MySQL常用的SQL查询语句">
+                <i class="fa fa-chevron-left"></i> MySQL常用的SQL查询语句
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/zh-cn/sql-check.html" rel="prev" title="MySQL常用的SQL查询语句">
-                MySQL常用的SQL查询语句 <i class="fa fa-chevron-right"></i>
+              <a href="/zh-cn/same-flower.html" rel="prev" title="人生就该向这些花儿一样">
+                人生就该向这些花儿一样 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -914,7 +919,7 @@ RIGHT JOIN（右连接）： 与 LEFT JOIN 相反，用于获取右表所有记�
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">30</span>
+                    <span class="site-state-item-count">38</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1048,7 +1053,9 @@ RIGHT JOIN（右连接）： 与 LEFT JOIN 相反，用于获取右表所有记�
                     
                       
                     
-                    <span class="site-state-item-count">41</span>
+                      
+                    
+                    <span class="site-state-item-count">42</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1235,19 +1242,19 @@ setInterval("createtime()",250);
 <!-- 网站底部字数统计 -->
 <div class="theme-info">
   <i class="fa fa-pencil"></i>
-  <span class="post-count">博客全站共38.2k字</span>
+  <span class="post-count">博客全站共46.6k字</span>
 </div>
 
 <!-- 不蒜字统计 -->
 <div>
 	<i class="fa fa-user-md"></i>
 	<span id="busuanzi_container_site_uv">
-	  访问人数：<span id="busuanzi_value_site_uv">人</span>
+	  访问人数：<span id="busuanzi_value_site_uv"></span>人
 	</span>&nbsp;|&nbsp;
 
 	<i class="fa fa-eye"></i>
 	<span id="busuanzi_container_site_pv">
-	  总访问量：<span id="busuanzi_value_site_pv">次</span>
+	  总访问量：<span id="busuanzi_value_site_pv"></span>次
 	</span>
 </div>
 
@@ -1393,11 +1400,11 @@ setInterval("createtime()",250);
   
   
 
-<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
 
 
 
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
@@ -1415,7 +1422,12 @@ setInterval("createtime()",250);
     avatar: 'wavatar',
     meta: guest,
     pageSize: '10' || 10,
-    visitor: true
+    visitor: true,
+    recordIP   : true,
+    serverURLs : 'https://yn01mip3.api.lncldglobal.com,',
+    enableQQ : 'true',
+    tagMeta: ["主人","小伙伴","访客"],
+    master: 'a2452bd8f7e1bfdc7b8b7f4956f0d77f'
   });
   //新增以下代码即可，可以移除.info下所有子节点。
   var infoEle = document.querySelector('#comments .info');

@@ -23,6 +23,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
+<meta name="referrer" content="no-referrer">
 
 
   
@@ -1393,7 +1394,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">30</span>
+                    <span class="site-state-item-count">38</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1527,7 +1528,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">41</span>
+                      
+                    
+                    <span class="site-state-item-count">42</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1714,19 +1717,19 @@ setInterval("createtime()",250);
 <!-- 网站底部字数统计 -->
 <div class="theme-info">
   <i class="fa fa-pencil"></i>
-  <span class="post-count">博客全站共38.2k字</span>
+  <span class="post-count">博客全站共46.6k字</span>
 </div>
 
 <!-- 不蒜字统计 -->
 <div>
 	<i class="fa fa-user-md"></i>
 	<span id="busuanzi_container_site_uv">
-	  访问人数：<span id="busuanzi_value_site_uv">人</span>
+	  访问人数：<span id="busuanzi_value_site_uv"></span>人
 	</span>&nbsp;|&nbsp;
 
 	<i class="fa fa-eye"></i>
 	<span id="busuanzi_container_site_pv">
-	  总访问量：<span id="busuanzi_value_site_pv">次</span>
+	  总访问量：<span id="busuanzi_value_site_pv"></span>次
 	</span>
 </div>
 
@@ -1872,11 +1875,11 @@ setInterval("createtime()",250);
   
   
 
-<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
 
 
 
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
@@ -1894,7 +1897,12 @@ setInterval("createtime()",250);
     avatar: 'wavatar',
     meta: guest,
     pageSize: '10' || 10,
-    visitor: true
+    visitor: true,
+    recordIP   : true,
+    serverURLs : 'https://yn01mip3.api.lncldglobal.com,',
+    enableQQ : 'true',
+    tagMeta: ["主人","小伙伴","访客"],
+    master: 'a2452bd8f7e1bfdc7b8b7f4956f0d77f'
   });
   //新增以下代码即可，可以移除.info下所有子节点。
   var infoEle = document.querySelector('#comments .info');

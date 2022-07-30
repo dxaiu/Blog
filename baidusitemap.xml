@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.dxain.ml/zh-cn/use-ionic-apk.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/create-ionic-project.html</loc>
     <lastmod>2022-07-23</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/zh-cn/create-ionic-project.html</loc>
+    <loc>https://www.dxain.ml/zh-cn/use-ionic-apk.html</loc>
     <lastmod>2022-07-23</lastmod>
   </url>  <url>
     <loc>https://www.dxain.ml/zh-cn/front-end-route.html</loc>
@@ -13,8 +13,35 @@
     <loc>https://www.dxain.ml/zh-cn/talk-promise.html</loc>
     <lastmod>2022-07-23</lastmod>
   </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-handle-full.html</loc>
+    <lastmod>2020-05-26</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-mv.html</loc>
+    <lastmod>2020-05-21</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-open-lamp.html</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-rmdir.html</loc>
+    <lastmod>2020-02-06</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-rm.html</loc>
+    <lastmod>2020-01-25</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-mkdir.html</loc>
+    <lastmod>2020-01-12</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-pwd.html</loc>
+    <lastmod>2020-01-02</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-cd.html</loc>
+    <lastmod>2019-10-06</lastmod>
+  </url>  <url>
     <loc>https://www.dxain.ml/zh-cn/myself-china.html</loc>
     <lastmod>2019-10-02</lastmod>
+  </url>  <url>
+    <loc>https://www.dxain.ml/zh-cn/linux-check-ls.html</loc>
+    <lastmod>2019-06-21</lastmod>
   </url>  <url>
     <loc>https://www.dxain.ml/zh-cn/js-base-learn.html</loc>
     <lastmod>2019-04-21</lastmod>
@@ -82,13 +109,10 @@
     <loc>https://www.dxain.ml/zh-cn/same-flower.html</loc>
     <lastmod>2016-04-23</lastmod>
   </url>  <url>
-    <loc>https://www.dxain.ml/zh-cn/linux-check-ls.html</loc>
-    <lastmod>2016-04-16</lastmod>
+    <loc>https://www.dxain.ml/zh-cn/linux-sum.html</loc>
+    <lastmod>2016-04-17</lastmod>
   </url>  <url>
     <loc>https://www.dxain.ml/zh-cn/sql-check.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>  <url>
-    <loc>https://www.dxain.ml/zh-cn/linux-sum.html</loc>
     <lastmod>2016-04-13</lastmod>
   </url>
 </urlset>
